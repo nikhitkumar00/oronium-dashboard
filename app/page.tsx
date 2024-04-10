@@ -67,7 +67,7 @@ const FormSection = () => {
             />
           </div>
         ))}
-        <p className="text-xs text-gray-400">Resolution (32x32px)</p>
+        <p className="text-xs text-gray-500">Resolution (32x32px)</p>
       </div>
 
       {/* Store name Section */}

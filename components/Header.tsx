@@ -23,6 +23,7 @@ const Header = () => {
           </button>
           <button className="cursor-pointer rounded bg-gray-200 p-2 hover:bg-gray-300">
             <BellIcon className="size-5 stroke-2" />
+            <span className="sr-only">Notifications</span>
           </button>
           <Image
             src="/avatar.png"
