@@ -55,7 +55,7 @@ const FormSection = () => {
       <h2 className="pb-2 pt-4 text-sm text-gray-600">Social Media</h2>
       <div className="flex flex-col gap-2">
         {SocialLinks.map((link) => (
-          <div className="flex h-10 w-full gap-2">
+          <div key={link.name} className="flex h-10 w-full gap-2">
             <div className="flex w-14 cursor-pointer items-center justify-around gap-1 rounded border-2">
               {link.icon}
               <DropdownIcon2 className="size-3" />
