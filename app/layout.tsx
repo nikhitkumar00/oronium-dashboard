@@ -21,7 +21,7 @@ export default function RootLayout({
         <Header />
         <div className="flex w-full flex-grow">
           <Navbar />
-          <div className="flex-grow bg-red-300">{children}</div>
+          <div className="flex-grow px-6 py-2">{children}</div>
         </div>
       </body>
     </html>

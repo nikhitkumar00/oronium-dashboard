@@ -2,7 +2,7 @@ import { BellIcon, PlayIcon } from "@/public/svg/icons";
 import Image from "next/image";
 const Header = () => {
   return (
-    <div className="w-full border-b px-6 py-4">
+    <div className="sticky top-0 w-full border-b px-6 py-4">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2">
           <Image

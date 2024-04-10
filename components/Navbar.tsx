@@ -35,13 +35,13 @@ const Navbar = () => {
     },
   ];
   return (
-    <div className="flex w-64 flex-col items-center justify-between px-3 py-4">
+    <div className="sticky bottom-0 flex w-60 flex-col items-center justify-between border-r px-3 py-4 shadow-lg">
       <div className="flex w-full flex-col gap-1 p-2">
         {navData.map((item) => (
           <Link
             href={item.path}
             key={item.name}
-            className={`flex cursor-pointer hover:bg-red-50 items-center gap-4 rounded-md p-2 ${
+            className={`flex cursor-pointer items-center gap-4 rounded-md p-2 hover:bg-red-50 ${
               pathname == item.path ? "bg-red-50" : ""
             }`}
           >
@@ -64,7 +64,7 @@ const Navbar = () => {
       </div>
       <div className="flex w-full flex-col gap-1 text-sm font-semibold">
         <p>Theme</p>
-        <div className="flex items-center cursor-pointer justify-between rounded-md border bg-gray-100 p-3 hover:bg-gray-200">
+        <div className="flex cursor-pointer items-center justify-between rounded-md border bg-gray-100 p-3 hover:bg-gray-200">
           <p className="font-medium">Primary Colour</p>
           <div className="size-4 rounded-full bg-red-600"></div>
         </div>
