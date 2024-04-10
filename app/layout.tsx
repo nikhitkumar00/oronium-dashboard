@@ -8,6 +8,7 @@ const urbanist = Urbanist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Oronium Dashboard",
+  description: "Oronium Dashboard",
 };
 
 export default function RootLayout({
