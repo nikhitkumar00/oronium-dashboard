@@ -12,7 +12,7 @@ const Header = () => {
             width={100}
             height={100}
           />
-          <h1 className="text-textDark font-semibold">
+          <h1 className="font-semibold text-textDark">
             Oronium E-Commerce Store
           </h1>
         </div>
@@ -26,7 +26,7 @@ const Header = () => {
             <span className="sr-only">Notifications</span>
           </button>
           <Image
-            src="/avatar.png"
+            src="/Avatar.png"
             alt="avatar"
             width={40}
             height={40}
